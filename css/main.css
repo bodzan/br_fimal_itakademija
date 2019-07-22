@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    height: 100px;
+    padding: 0 15px;
+    border: 1px solid black;
+    margin: 0 auto;
+    line-height: 6;
+}
+
+.clearfix::after{
+    display: block;
+    content: '';
+    height: 1px;
+    visibility: hidden;
+    clear: both;
+}
+
+cont {
+    float: left;
+    display: block;
+    margin: 20px;
+}
+
+.important {
+    color: red;
+}
+
+.dates {
+    width: 225px;
+    float: left;
+    margin: 10px;
+}
+
+#group {
+    display: none;
+}
+
+table {
+    border: 1px solid black;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+#open_more {
+    display: none;
+}
